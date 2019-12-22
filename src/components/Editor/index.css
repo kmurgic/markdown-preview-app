@@ -1,0 +1,18 @@
+.editor-textarea {
+  background-color: #f2faff;
+  width: calc(100% - 12px);
+  resize: vertical;
+  height: 400px;
+  min-height: 200px;
+  border: none;
+  position: relative;
+  outline: none;
+  margin-left: 12px;
+  padding-top: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .editor-textarea {
+    height: 200px;
+  }
+}
