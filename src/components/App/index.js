@@ -20,7 +20,7 @@ const App = () => {
       />
       <ControlledPreview text={text} />
     </div>
-  )
-}
+  );
+};
 
 export default App;
