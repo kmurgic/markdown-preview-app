@@ -1,7 +1,6 @@
 import React from 'react'
 import { MarkdownPreview } from 'react-marked-markdown';
 import './index.css';
-import { string } from 'prop-types';
 
 type PreviewProps = {
   text: string,
